@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Contact book</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Create a new contact</h1>
+	<form class="form" name="frmContact" action="insert" >
+		<td><input type="text" name="name" placeholder="Name"></td>
+		<td><input type="text" name="phone" placeholder="Telephone"></td>
+		<td><input type="text" name="email" placeholder="E-mail"></td>
+		<input type="button" value="Add" onclick="validated()" >
+	</form>
+	
+	<script src="scripts/validator.js"></script>
+</body>
+
+</html>
